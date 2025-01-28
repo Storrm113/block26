@@ -1,0 +1,60 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* Contact List styles */
+  .contact-list {
+    padding: 20px;
+  }
+  
+  .contact-item {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .contact-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Selected Contact styles */
+  .selected-contact {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+  }
+  
+  .selected-contact h2 {
+    margin-top: 0;
+  }
+  
+  .selected-contact p {
+    margin: 5px 0;
+  }
+  
+  .selected-contact button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selected-contact button:hover {
+    background-color: #0056b3;
+  }
